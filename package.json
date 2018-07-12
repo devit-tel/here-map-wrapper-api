@@ -1,7 +1,10 @@
 {
-  "name": "testing",
+  "name": "here-map-wrapper",
   "version": "1.0.0",
   "main": "index.js",
+  "files": [
+    "build/"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "npm run start-production",
@@ -61,7 +64,7 @@
     "util": "^0.10.3",
     "winston": "^2.4.2",
     "winston-graylog2": "^1.0.0",
-    "winston-koa-logger": "^0.0.2",
+    "winston-koa-logger": "^0.0.2"
   },
   "husky": {
     "hooks": {
