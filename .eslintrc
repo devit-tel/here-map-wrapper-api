@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "prettier/standard", "prettier/flowtype"],
+  "plugins": ["babel", "flowtype", "prettier", "promise"],
+  "rules": {
+    "indent": "off",
+    "comma-dangle": ["warn", "always-multiline"],
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "space-before-function-paren": "off",
+    "arrow-parens": ["warn", "as-needed"]
+  }
+}
