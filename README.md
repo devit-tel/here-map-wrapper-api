@@ -1,6 +1,17 @@
 # Here Map Wrapper API
 
-### how to use 
+### How to install
+
+```shell
+  $ npm install here-map-wrapper --save 
+
+  or 
+
+  $ yarn add here-map-wrappe
+```
+
+### How to use 
+
 ```javascript
 
 const config = {
@@ -18,7 +29,11 @@ let locations = [
 ]
 
 hereMap.getPolyline(locations).then(function(polyline) {
+
   console.log(polyline)
+
+  // polyline = 'ox{vHq|kA_@nB??{@_@??SI??OG??YMSK??[Q' 
+
 })
 
 ```
