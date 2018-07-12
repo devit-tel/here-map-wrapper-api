@@ -1,3 +1,4 @@
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 # Here Map Wrapper API
 
 ### How to install
@@ -20,9 +21,9 @@ const config = {
 }
 
 
-let hereMap = new HereMapWrapper(config)
+const hereMap = new HereMapWrapper(config)
 
-let locations = [
+const locations = [
   {lat: 51.10177, lng: 0.39349},
   {lat: 51.10181, lng: 0.39335},
   {lat: 51.10255, lng: 0.39369}
