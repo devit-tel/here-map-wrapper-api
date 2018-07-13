@@ -8,7 +8,7 @@
 
   or 
 
-  $ yarn add here-map-wrappe
+  $ yarn add here-map-wrapper
 ```
 
 ### How to use 
