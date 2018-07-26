@@ -1,9 +1,9 @@
 {
   "name": "here-map-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "files": [
-    "build/"
+    "build/index.js"
   ],
   "license": "MIT",
   "scripts": {
@@ -54,6 +54,7 @@
     "axios": "^0.18.0",
     "debug": "^3.1.0",
     "dotenv": "^5.0.1",
+    "here-map-wrapper": "^1.0.1",
     "jsontoxml": "^1.0.0",
     "lodash": "^4.17.10",
     "shortid": "^2.2.8",
