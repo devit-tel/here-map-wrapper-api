@@ -1,7 +1,9 @@
 {
   "name": "here-map-wrapper",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "build/index.js",
+  "homepage": "http://github.com/sendit-asia/here-map-wrapper-api",
+  "repository": "github:sendit-asia/here-map-wrapper-api",
   "files": [
     "build/"
   ],
