@@ -1,5 +1,5 @@
-import 'babel-core/register'
 import 'babel-polyfill'
+import 'babel-core/register'
 
 import hereMapModel from './models'
 import jsontoxml from 'jsontoxml'
@@ -41,5 +41,24 @@ HereMapWrapper.prototype.getPolyline = async function(locations) {
       return err
     }
 }
+
+// const config = {
+//   appId: 'MIbdO7rKh5YgK3wFkxH0',
+//   appCode: 'PSVGgwwZ2DtMigt4PKLPZQ'
+// }
+
+// let hereMap = new HereMapWrapper(config)
+
+// let locations = [
+//   {lat: 51.10177, lng: 0.39349},
+//   {lat: 51.10181, lng: 0.39335},
+//   {lat: 51.10255, lng: 0.39369}
+// ]
+
+// let x = hereMap.getPolyline(locations)
+// console.log('test')
+// x.then(function(res) {
+//   console.log(res)
+// })
 
 export default HereMapWrapper
